@@ -1,0 +1,2 @@
+module CodingTest_String {
+}
