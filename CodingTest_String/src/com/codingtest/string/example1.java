@@ -2,7 +2,7 @@ package com.codingtest.string;
 
 import java.util.Scanner;
 
-class 문자찾기{	
+class example1{	
 	public int solution(String str, char t){
 		int answer=0;
 		str=str.toUpperCase();
@@ -19,7 +19,7 @@ class 문자찾기{
 	}
 
 	public static void main(String[] args){  
-		문자찾기 T = new 문자찾기();
+		example1 T = new example1();
 		Scanner kb = new Scanner(System.in);
 		String str=kb.next(); //next() : console 창에서 문자열을 하나 읽어들임
 		char c=kb.next().charAt(0); //next() : console 창에서 문자열을 하나 읽어들임, charAt(0) : 문자 하나를 console 창에서 읽어들임
