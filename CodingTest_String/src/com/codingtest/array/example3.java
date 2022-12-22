@@ -1,3 +1,5 @@
+package com.codingtest.array;
+
 import java.util.*;
 class example3 {
 	public String solution(int n, int[] a, int[] b){
@@ -13,6 +15,7 @@ class example3 {
 	}
 	public static void main(String[] args){
 		example3 T = new example3();
+		System.out.println("123");
 		Scanner kb = new Scanner(System.in);
 		int n=kb.nextInt();
 		int[] a=new int[n];

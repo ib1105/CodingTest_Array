@@ -1,19 +1,20 @@
 package com.codingtest.array;
 
 import java.util.*;
-class example2 {
+class example7 {
     public int solution(int n, int[] arr){
-        int answer=1, max=arr[0];
-        for(int i=1; i<n; i++){
-            if(arr[i]>max){
-                max=arr[i];
-                answer++;
+        int answer=0, cnt=0;
+        for(int i=0; i<n; i++){
+            if(arr[i]==1){
+                cnt++;
+                answer+=cnt;
             }
+            else cnt=0;
         }
         return answer;
     }
     public static void main(String[] args){
-        example2 T = new example2();
+        example7 T = new example7();
         Scanner kb = new Scanner(System.in);
         int n=kb.nextInt();
         int[] arr=new int[n];

@@ -1,3 +1,5 @@
+package com.codingtest.string;
+
 import java.util.*;
 class example12 {
     public String solution(int n, String s){

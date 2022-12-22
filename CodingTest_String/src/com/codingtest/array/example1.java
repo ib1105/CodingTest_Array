@@ -1,3 +1,5 @@
+package com.codingtest.array;
+
 import java.util.*;
 class example1 {
 	public ArrayList<Integer> solution(int n, int[] arr){
